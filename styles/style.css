@@ -269,3 +269,29 @@ button{
 .contact .btn-standard{
     width: 50%;
 }
+
+.rodapeElements {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(84deg, #040315 15.78%, #113A78 99.08%);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+}
+
+.rodapeElements p{
+    margin: 0;
+}
+
+.rodapeElements a{
+    color: #47d4ff;
+}
+
+.instagram{
+    width: 100%;
+}
