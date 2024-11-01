@@ -12,6 +12,7 @@ html {
 
 body {
     overflow-x: hidden;
+    font-family: "Baloo Chettan 2", serif;
 }
 
 #main-header nav {
@@ -174,5 +175,43 @@ body {
 
 .btnFacebook:hover{
     background: linear-gradient(84deg, #040315 15.78%, #113A78 99.08%);
+    border: none;
+}
+
+.btn-standard{
+    cursor: pointer;
+    font-family: "Baloo Chettan 2";
+    border-radius: 3rem;
+    background-color: #CCEBFF;
+    font-family: "Baloo Chettan 2";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 40%;
+}
+
+.destaque{
+    color:#138fb4
+}
+
+h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+section{
+    margin-top: 8rem;
+}
+
+.dobra-2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button{
     border: none;
 }
