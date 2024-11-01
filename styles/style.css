@@ -191,8 +191,6 @@ body {
 }
 
 .miniBanner h2{
-
-    font-size: 2.25rem;
     color: #FFF;
     font-weight: 900;
     font-style: normal;
@@ -214,7 +212,6 @@ body {
 
 .dobra-4 h2{
     color: 040315;
-    font-size: 2.25rem;
     font-weight: 900;
     font-style: normal;
     line-height: 140%;
@@ -267,4 +264,8 @@ section{
 
 button{
     border: none;
+}
+
+.contact .btn-standard{
+    width: 50%;
 }
