@@ -252,7 +252,7 @@ h2{
 }
 
 section{
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 .dobra-2{
@@ -293,4 +293,8 @@ button{
 
 .instagram{
     width: 100%;
+}
+
+.mockup-phone{
+    padding-left: 10vw;
 }
