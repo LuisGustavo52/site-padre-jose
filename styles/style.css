@@ -64,15 +64,15 @@ body {
 
 .banner {
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     background-image:url('../Assets/BannerHome.png');
     background-repeat: no-repeat;   
     background-size: cover;
+    background-position: left center;
 }
 
 .hero {
-
-    width: 1440px;
+    padding-left: 6vw;
     height: 100%;
     display: flex;
     margin: auto;
@@ -81,7 +81,6 @@ body {
 }
 
 .hero-conteudo{
-    max-width: 38rem;
     flex-direction: column;
     display: flex;
     gap: 1.5rem;
@@ -91,7 +90,7 @@ body {
 .hero-conteudo h1{
     line-height: 100%;
     color: #FFF;
-    font-size: 6rem;
+    font-size: 5rem;
     font-style: normal;
     font-weight: 800;
     
