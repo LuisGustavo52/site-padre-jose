@@ -65,7 +65,7 @@ body {
 .banner {
     width: 100%;
     height: 100vh;
-    background-image:url('../Assets/BannerHome.png');
+    background-image:url('../assets/banner-home.png');
     background-repeat: no-repeat;   
     background-size: cover;
     background-position: left center;
@@ -107,6 +107,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
+    width: 60%;
 }
 
 .buttons{
@@ -178,18 +179,18 @@ body {
 }
 
 .dobra-3{
-    background-image: url(../Assets/miniBanner.png);
+    background-image: url(../assets/mini-banner.png);
     width: 100vw;
     height: 740px;
     background-repeat: no-repeat;
     background-size: cover;  
-    margin-top: 130px;
     padding: 0;
     justify-content: end;
     align-items: center;
 }
 
-.miniBanner h2{
+.mini-banner h2{
+    padding-right: 8vw;
     color: #FFF;
     font-weight: 900;
     font-style: normal;
@@ -210,7 +211,7 @@ body {
 }
 
 .dobra-4 h2{
-    color: 040315;
+    color: #040315;
     font-weight: 900;
     font-style: normal;
     line-height: 140%;
@@ -240,6 +241,7 @@ body {
     justify-content: center;
     padding: 1rem;
     width: 40%;
+    margin-top: 1rem;
 }
 
 .destaque{
@@ -270,7 +272,7 @@ button{
 }
 
 .rodapeElements {
-    width: 100%;
+    width: 100vw;
     height: 70px;
     background: linear-gradient(84deg, #040315 15.78%, #113A78 99.08%);
     align-items: center;
