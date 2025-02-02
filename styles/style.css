@@ -14,34 +14,17 @@ body {
     overflow-x: hidden;
     font-family: "Baloo Chettan 2", serif;
 }
-
-#main-header nav {
-
-    width: 100%;
-    margin: auto;
-    padding: 2rem 10rem;
+header{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
 }
 
-.menu {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 35px;
-}
-
-.menu > img{
-    width: 94px;
-    height: 96px;
+.logonav{
+    height:13vh;
     flex-shrink: 0;
 }
 
-.menu li a {
+.nav-link {
     color: #FFF;
     text-decoration: none;
     font-size: 18px;
@@ -50,15 +33,31 @@ body {
     line-height: normal;
 }
 
-.menu li a:hover {
-    color: #040315;
+.nav-link:hover {
+    color: #42DCFF;
+    text-decoration: underline;
+}
+.nav-link:focus {
+    color: #42DCFF;
+    text-decoration: underline;
 }
 
-/* .menu li a:visited {
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
-    color: #040315;
-    text-decoration: underline;
-}  */
+.navbar-toggler{
+    border-width: 2px;
+    border-color: white;
+}
+
+.content-header {
+    padding-top: 120px; /* Ajuste essa altura conforme a altura da sua navbar */
+}
+
+.navbar-collapse.show + .content-header {
+    padding-top: 160px; /* Ajuste essa altura conforme a altura da sua navbar quando colapsada */
+}
 
 /* Banner Principal */
 
@@ -107,7 +106,6 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    width: 60%;
 }
 
 .buttons{
@@ -184,9 +182,9 @@ body {
     height: 740px;
     background-repeat: no-repeat;
     background-size: cover;  
-    padding: 0;
     justify-content: end;
     align-items: center;
+    margin: 0;
 }
 
 .mini-banner h2{
@@ -196,12 +194,6 @@ body {
     font-style: normal;
     line-height: 140%;
     
-}
-
-@media (max-width: 1600px) {
-    .dobra-3 {
-        height: 75vh;
-    }
 }
 
 .dobra-4{
@@ -271,26 +263,8 @@ button{
     width: 50%;
 }
 
-.rodapeElements {
-    width: 100vw;
-    height: 70px;
-    background: linear-gradient(84deg, #040315 15.78%, #113A78 99.08%);
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    
-
-    color: #FFF;
-    font-size: 1.25rem;
-    font-style: normal;
-}
-
-.rodapeElements p{
-    margin: 0;
-}
-
-.rodapeElements a{
-    color: #47d4ff;
+footer{
+    background-color: #ECF6FF;
 }
 
 .instagram{
@@ -299,4 +273,84 @@ button{
 
 .mockup-phone{
     padding-left: 10vw;
+}
+
+@media (max-width: 992px) {
+    .navbar-brand{
+        margin: 0;
+    }
+
+    html{
+        font-size: 12px;
+    }    
+
+    h2{
+        font-size: 20px;
+    }
+
+    .hero-conteudo h1{
+        font-size: 4rem;
+    }
+
+    .contact .btn-standard{
+        font-size: 1rem;
+        width: 40%;
+    }
+
+    .btn-standard{
+        font-size: 1rem;
+        width: 40%;
+        padding: 0.7rem 0rem;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    
+    #btn-conheca-2{
+        visibility: hidden;
+    }
+
+    .logonav{
+        height: 10vh;
+    }
+
+    p,h2,.btn-standard{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .dobra-3 h2{
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .hero{
+        padding-left:auto ;
+    }
+
+    section{
+        margin-top: 4rem;
+    }
+
+}
+
+@media (min-width: 992px) { 
+    .w-lg-50 { 
+        width: 60% !important; 
+    }
+    .dobra-3{
+        padding: 0;
+    }
+}
+  
+@media (max-width: 1600px) {
+    .dobra-3 {
+        height: 75vh;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-conteudo h1 {
+        font-size: 3.5rem;
+    }
 }
