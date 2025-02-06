@@ -25,7 +25,7 @@ header{
 }
 
 .nav-link {
-    color: #FFF;
+    color: #FFF; 
     text-decoration: none;
     font-size: 18px;
     font-style: normal;
@@ -53,10 +53,6 @@ header{
 
 .content-header {
     padding-top: 120px; /* Ajuste essa altura conforme a altura da sua navbar */
-}
-
-.navbar-collapse.show + .content-header {
-    padding-top: 160px; /* Ajuste essa altura conforme a altura da sua navbar quando colapsada */
 }
 
 /* Banner Principal */
@@ -304,7 +300,10 @@ footer{
         margin-top: 0px;
         margin-bottom: 20px;
     }
-
+    
+    .nav-link{
+        color: #040315;
+    }
     
     #btn-conheca-2{
         visibility: hidden;
