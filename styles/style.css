@@ -288,6 +288,99 @@ footer{
     padding-left: 10vw;
 }
 
+.banner-mini {
+    width: 100%;
+    height: 60vh;
+    background-image:url('../assets/B4.png');
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: left center;
+}
+
+.icon-box {
+    width: 50px; 
+    height: 50px;
+    background-color: #138FB4; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
+    margin-right: 10px;
+}
+
+.icon-box i {
+    color: white; 
+    font-size: 24px; 
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.icon-blue { background-color: #113A78; }  
+.icon-red { background-color: #138FB4; }   
+.icon-purple { background-color: #F900BA; }
+
+
+ .form-container {
+    background: white;
+    border: 2px solid #138FB4;
+    border-radius: 15px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+
+.form-control {
+    background: #ECF6FF !important;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+
+}
+
+.form-control:focus {
+    border: 2px solid #138FB4;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group .form-control {
+    flex: 1;
+}
+
+span{
+    color: #138FB4;
+}
+
+.btnForms {
+    background: #138FB4;
+    font-weight: 900;
+    color: #FFF;
+}
+
+
+.btnForms:hover {
+    background: #040315;
+    color: #FFF;
+    font-weight: 900;
+}
+
 @media (max-width: 992px) {
     .navbar-brand{
         margin: 0;
