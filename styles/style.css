@@ -251,6 +251,23 @@ section{
     display: flex;
 }
 
+.head-instagram{
+    background-color: #138FB4;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    width: 18rem;
+}
+
+.container-insta row, .container-insta .row .col-3, .container-insta .row .col-12{
+    gap: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#instagram-principal{
+    visibility: visible;
+}
+
 button{
     border: none;
 }
@@ -321,6 +338,13 @@ footer{
     .dobra-3 h2{
         margin-right: 0;
         padding: 0;
+    }
+
+    .container-insta .row .col-3{
+        visibility: hidden;
+    }
+    .disabled-img{
+        height: 0px;
     }
 
     .hero{
