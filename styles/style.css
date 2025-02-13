@@ -439,6 +439,66 @@ span{
     object-fit: cover; /* Mantém o aspecto preenchendo o espaço */
 }
 
+.banner-mini-quemsomos {
+    width: 100%;
+    height: 60vh;
+    background-image:url('../assets/B2.png');
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: left center;
+}
+
+.bg-dobra2{
+    width: 100%;
+    height: 900px;
+    background: #ECF6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 150px 0px;
+    
+}
+
+.dbSpace {
+    margin-bottom: 150px;
+}
+
+.info-topic {
+    margin-top: 10px;
+}
+
+.dobra-meio{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-card {
+    width: 400px;
+    height: 455px;
+    background-color: #040315;
+    color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    gap: 20px;
+}
+
+.titleCard {
+    font-size: 20px;
+    font-weight: 900;
+    color: #42DCFF;
+}
+
 @media (max-width: 992px) {
     .navbar-brand{
         margin: 0;
@@ -459,6 +519,16 @@ span{
 
     .banner-mini-contato{
         background-image: url('../assets/B4-M.png');
+    }
+
+    .banner-mini-quemsomos{
+        background-image: url('../assets/B2-M.png');
+    }
+
+    .hero-conteudo {
+        padding-bottom: 300px;
+        text-align: center;
+        align-items: center;
     }
 
     .hero-conteudo h1{
